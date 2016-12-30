@@ -1,6 +1,6 @@
 Package.describe({
     summary: "Automatically add visitor as anonymous guest with userId",
-    version: "1.0.0",
+    version: "1.0.1",
     name: "andersonjonathan:accounts-guest",
     git: "https://github.com/andersonjonathan/meteor-accounts-guest.git"
 });
@@ -33,4 +33,3 @@ Package.onTest(function (api) {
 Npm.depends({
     'moniker': '0.1.2'
 });
-
